@@ -59,3 +59,9 @@ void LinierSearch()
 		cin >> ch;
 	} while ((ch == 'y') || (ch == 'n'));	
 }
+
+int main()
+{
+	input();
+	LinierSearch();
+}
