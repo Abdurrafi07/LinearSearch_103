@@ -57,7 +57,7 @@ void LinierSearch()
 
 		cout << "\nContinue search (y/n): ";
 		cin >> ch;
-	} while ((ch == 'y') || (ch == 'y'));	
+	} while ((ch == 'y') || (ch == 'Y'));	
 }
 
 int main()
