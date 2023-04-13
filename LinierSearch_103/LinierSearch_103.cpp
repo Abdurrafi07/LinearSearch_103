@@ -48,6 +48,9 @@ void LinierSearch()
 			{
 				cout << "\n" << item << " found at position " << (i + 1) << endl;
 				break;
+
+				cout << "\nContinue search (y/n): ";
+				cin >> ch;
 			}
 		}
 	}
